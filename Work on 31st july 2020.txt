@@ -1,0 +1,283 @@
+# Data types, variables, and arithmetic operators
+
+Index.html
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            <"Java Script Programming">
+        </title>
+    </head>
+        <p id="demo"></p>
+        <body>
+            <h1> Programming </h1>
+            <h2> Javascript</h2>
+            <h3> Hello world</h3>
+            <h4> HelloJs</h4>
+            <h5> Welcome </h5>
+            <h6> programming is fun</h6>
+            <script src="variables.js">
+            </script>
+        </body>
+</html>
+
+Variable.js
+
+let x=20
+document.getElementById("demo").innerHTML=x;                       // o/p:-20
+document.getElementById("demo").innerHTML=(typeof(x))              // o/p:-number
+let y="cherry"
+document.getElementById("demo").innerHTML=(typeof(y))              //o/p:-string
+let a=45
+ let b=76
+ document.getElementById("demo").innerHTML=(a+b);                  // o/p:-121
+ document.getElementById("demo").innerHTML=(a-b);                  // o/p:- -31
+ document.getElementById("demo").innerHTML=(a*b);                  // o/p:- 3420
+ document.getElementById("demo").innerHTML=(a/b);                  // o/p:-0
+ document.getElementById("demo").innerHTML=(a%b);                  // o/p:- 45
+
+# Arrays
+
+Index.html
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            <"Java Script Programming">
+        </title>
+    </head>
+        <p id="demo"></p>
+        <body>
+            <h1> Programming </h1>
+            <h2> Javascript</h2>
+            <h3> Hello world</h3>
+            <h4> HelloJs</h4>
+            <h5> Welcome </h5>
+            <h6> programming is fun</h6>
+            <script src="variables.js">
+            </script>
+            <script src="arrays.js"></script>
+        </body>
+</html>
+
+array.js
+
+let month=["jan","feb","mar","apr","may","jun"]
+document.getElementById("month").innerHTMl=month[0];
+document.getElementById("demo").innerHTML = month[1];
+document.getElementById("month").innerHTMl=month[2];
+
+o/p:-
+jan
+feb
+mar
+
+#Objects
+
+Index.html
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            <"Java Script Programming">
+        </title>
+    </head>
+        <p id="demo"></p>
+        <body>
+            <h1> Programming </h1>
+            <h2> Javascript</h2>
+            <h3> Hello world</h3>
+            <h4> HelloJs</h4>
+            <h5> Welcome </h5>
+            <h6> programming is fun</h6>
+            <script src="variables.js">
+            </script>
+            <script src="arrays.js"></script>
+            <script src="objects.js"></script>
+        </body>
+</html>
+
+objects.js
+
+let choclates ={
+    name:'dairymilk',
+    types:'softh',
+    cost:'10'
+};
+document.getElementById("choclate").innerHTML= (choclates.name);
+
+o/p:-dairymilk
+
+# conditional statements
+
+Index.html
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            <"Java Script Programming">
+        </title>
+    </head>
+        <p id="demo"></p>
+        <body>
+            <h1> Programming </h1>
+            <h2> Javascript</h2>
+            <h3> Hello world</h3>
+            <h4> HelloJs</h4>
+            <h5> Welcome </h5>
+            <h6> programming is fun</h6>
+            <script src="variables.js">
+            </script>
+            <script src="arrays.js"></script>
+            <script src="objects.js"></script>
+            <script src="conditional.js"></script>
+        </body>
+</html>
+
+conditional.js
+
+let num= 0;
+if(num==0){
+    document.getElementById("conditional").innerHTML="whole num";   
+elseif(num>0 && num<9)
+    document.getElementById("conditional").innerHTML="single digit num";
+}
+
+o/p:-
+whole num
+
+#loops
+
+Index.html
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            <"Java Script Programming">
+        </title>
+    </head>
+        <p id="demo"></p>
+        <body>
+            <h1> Programming </h1>
+            <h2> Javascript</h2>
+            <h3> Hello world</h3>
+            <h4> HelloJs</h4>
+            <h5> Welcome </h5>
+            <h6> programming is fun</h6>
+            <script src="variables.js">
+            </script>
+            <script src="arrays.js"></script>
+            <script src="objects.js"></script>
+            <script src="conditional.js"></script>
+            <script src="loops.js"></script>
+        </body>
+</html>   
+
+loops.js
+
+for(let i=0;i<5;i++){
+     document.getElementById("sample").innerHTML=i +" ";
+}
+
+o/p:- 0 1 2 3 4
+
+# Switch
+
+Index.html
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            <"Java Script Programming">
+        </title>
+    </head>
+        <p id="demo"></p>
+        <body>
+            <h1> Programming </h1>
+            <h2> Javascript</h2>
+            <h3> Hello world</h3>
+            <h4> HelloJs</h4>
+            <h5> Welcome </h5>
+            <h6> programming is fun</h6>
+            <script src="variables.js">
+            </script>
+            <script src="arrays.js"></script>
+            <script src="objects.js"></script>
+            <script src="conditional.js"></script>
+            <script src="loops.js"></script>
+            <script src="Switch.js"></script>
+        </body>
+</html>
+
+switch.js
+
+let num=4;
+switch(num){
+    case 1:document.getElementById("demo").innerHTML=1;
+    break;
+    case 2:document.getElementById("demo").innerHTML=2;
+    break;
+    case 3:document.getElementById("demo").innerHTML=3;
+    break;
+    case 4:document.getElementById("demo").innerHTML=4;
+    break;
+}
+
+o/p:-4
+
+#Functions
+
+Index.html
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            <"Java Script Programming">
+        </title>
+    </head>
+        <p id="demo"></p>
+        <body>
+            <h1> Programming </h1>
+            <h2> Javascript</h2>
+            <h3> Hello world</h3>
+            <h4> HelloJs</h4>
+            <h5> Welcome </h5>
+            <h6> programming is fun</h6>
+            <script src="variables.js">
+            </script>
+            <script src="arrays.js"></script>
+            <script src="objects.js"></script>
+            <script src="conditional.js"></script>
+            <script src="loops.js"></script>
+            <script src="Switch.js"></script>
+            <script src="functions.js"></script>
+        </body>
+</html>
+
+functions.js
+
+function hello(){
+    document.getElementById("hello").innerHTML="Welcome to developer world!"
+}
+hello();
+
+o/p:-Welcome to developer world!
+
+# Work on Java script DOM objects?
+
+DOM stand for Document Object Model
+With the object model, JavaScript gets all the power it needs to create dynamic HTML:
+JavaScript can change all the HTML elements in the page
+JavaScript can change all the HTML attributes in the page
+JavaScript can change all the CSS styles in the page
+JavaScript can remove existing HTML elements and attributes
+JavaScript can add new HTML elements and attributes
+JavaScript can react to all existing HTML events in the page
+JavaScript can create new HTML events in the page
